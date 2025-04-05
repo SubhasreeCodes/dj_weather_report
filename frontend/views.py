@@ -32,7 +32,7 @@ def home(request):
         weather_api = json.loads(weather_request.text)
 
         print(weather_api)
-        return render(request, "frontend/home.html", {'weather_api': weather_api})
+        return render(request, "frontend/home2.html", {'weather_api': weather_api})
 
     else:
 
@@ -41,4 +41,4 @@ def home(request):
         weather_request = requests.get(url)
         weather_api = json.loads(weather_request.text)
 
-        return render(request, "frontend/home.html", {'weather_api': weather_api})
+        return render(request, "frontend/home2.html", {'weather_api': weather_api})
