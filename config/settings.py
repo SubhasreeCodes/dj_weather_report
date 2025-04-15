@@ -33,11 +33,11 @@ DEBUG = True
 ALLOWED_HOSTS = [
     'localhost',
     '127.0.0.1',
-    'dj-weather-report.onrender.com',
+    'dj-weather-report-q0kl.onrender.com',
 ]
 
 CSRF_TRUSTED_ORIGINS = [
-    "https://dj-weather-report.onrender.com",
+    "https://dj-weather-report-q0kl.onrender.com",
 ]
 
 # Application definition
