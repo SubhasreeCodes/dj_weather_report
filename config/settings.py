@@ -36,6 +36,9 @@ ALLOWED_HOSTS = [
     'dj-weather-report.onrender.com',
 ]
 
+CSRF_TRUSTED_ORIGINS = [
+    "https://dj-weather-report.onrender.com",
+]
 
 # Application definition
 
